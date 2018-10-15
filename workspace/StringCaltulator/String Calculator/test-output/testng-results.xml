@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="50" started-at="2018-10-15T08:38:19Z" finished-at="2018-10-15T08:38:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="50" started-at="2018-10-15T08:38:19Z" finished-at="2018-10-15T08:38:19Z">
+      <class name="TestAdd">
+        <test-method status="PASS" signature="init()[pri:0, instance:TestAdd@d2cc05a]" name="init" is-config="true" duration-ms="9" started-at="2018-10-15T08:38:19Z" finished-at="2018-10-15T08:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="changeSeparator()[pri:0, instance:TestAdd@d2cc05a]" name="changeSeparator" duration-ms="5" started-at="2018-10-15T08:38:19Z" finished-at="2018-10-15T08:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeSeparator -->
+        <test-method status="PASS" signature="changeSeparatorWithNewLineStart()[pri:0, instance:TestAdd@d2cc05a]" name="changeSeparatorWithNewLineStart" duration-ms="1" started-at="2018-10-15T08:38:19Z" finished-at="2018-10-15T08:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeSeparatorWithNewLineStart -->
+        <test-method status="PASS" signature="emptyStringReturnsZero()[pri:0, instance:TestAdd@d2cc05a]" name="emptyStringReturnsZero" duration-ms="1" started-at="2018-10-15T08:38:19Z" finished-at="2018-10-15T08:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyStringReturnsZero -->
+        <test-method status="PASS" signature="ignoreNumbersGreaterThan1000()[pri:0, instance:TestAdd@d2cc05a]" name="ignoreNumbersGreaterThan1000" duration-ms="1" started-at="2018-10-15T08:38:19Z" finished-at="2018-10-15T08:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ignoreNumbersGreaterThan1000 -->
+        <test-method status="PASS" signature="longSeparators()[pri:0, instance:TestAdd@d2cc05a]" name="longSeparators" duration-ms="1" started-at="2018-10-15T08:38:19Z" finished-at="2018-10-15T08:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- longSeparators -->
+        <test-method status="PASS" signature="longSeparatorsWithBracket()[pri:0, instance:TestAdd@d2cc05a]" name="longSeparatorsWithBracket" duration-ms="1" started-at="2018-10-15T08:38:19Z" finished-at="2018-10-15T08:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- longSeparatorsWithBracket -->
+        <test-method status="PASS" signature="negativeNumbersUsedRuntimeExceptionIsThrown()[pri:0, instance:TestAdd@d2cc05a]" name="negativeNumbersUsedRuntimeExceptionIsThrown" duration-ms="1" started-at="2018-10-15T08:38:19Z" finished-at="2018-10-15T08:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeNumbersUsedRuntimeExceptionIsThrown -->
+        <test-method status="PASS" signature="negativeNumbersUsedThenRuntimeExceptionIsThrown()[pri:0, instance:TestAdd@d2cc05a]" name="negativeNumbersUsedThenRuntimeExceptionIsThrown" duration-ms="0" started-at="2018-10-15T08:38:19Z" finished-at="2018-10-15T08:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeNumbersUsedThenRuntimeExceptionIsThrown -->
+        <test-method status="PASS" signature="newLineAtTheEndRuntimeExceptionIsThrown()[pri:0, instance:TestAdd@d2cc05a]" name="newLineAtTheEndRuntimeExceptionIsThrown" duration-ms="1" started-at="2018-10-15T08:38:19Z" finished-at="2018-10-15T08:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newLineAtTheEndRuntimeExceptionIsThrown -->
+        <test-method status="PASS" signature="separatorIsFirst()[pri:0, instance:TestAdd@d2cc05a]" name="separatorIsFirst" duration-ms="1" started-at="2018-10-15T08:38:19Z" finished-at="2018-10-15T08:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- separatorIsFirst -->
+        <test-method status="PASS" signature="separatorsWithBracket()[pri:0, instance:TestAdd@d2cc05a]" name="separatorsWithBracket" duration-ms="1" started-at="2018-10-15T08:38:19Z" finished-at="2018-10-15T08:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- separatorsWithBracket -->
+        <test-method status="PASS" signature="sigleValueIsReplied()[pri:0, instance:TestAdd@d2cc05a]" name="sigleValueIsReplied" duration-ms="1" started-at="2018-10-15T08:38:19Z" finished-at="2018-10-15T08:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sigleValueIsReplied -->
+        <test-method status="PASS" signature="threeValuesAreSummed()[pri:0, instance:TestAdd@d2cc05a]" name="threeValuesAreSummed" duration-ms="1" started-at="2018-10-15T08:38:19Z" finished-at="2018-10-15T08:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- threeValuesAreSummed -->
+        <test-method status="PASS" signature="twoValuesAreSummed()[pri:0, instance:TestAdd@d2cc05a]" name="twoValuesAreSummed" duration-ms="1" started-at="2018-10-15T08:38:19Z" finished-at="2018-10-15T08:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twoValuesAreSummed -->
+        <test-method status="PASS" signature="twoValuesAreSummedNewLineDelimited()[pri:0, instance:TestAdd@d2cc05a]" name="twoValuesAreSummedNewLineDelimited" duration-ms="1" started-at="2018-10-15T08:38:19Z" finished-at="2018-10-15T08:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twoValuesAreSummedNewLineDelimited -->
+      </class> <!-- TestAdd -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
